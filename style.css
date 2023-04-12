@@ -152,3 +152,33 @@ strong {
     border: 1px solid #DADADA;
     width: 765px;
 }
+
+.donate-button-div {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.donate-button-two {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.donate-plan-items {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.donate-plan {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-block-end: 0%;
+}
+
+.donate-plan-details {
+    color: #707070;
+}
