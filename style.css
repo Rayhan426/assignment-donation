@@ -72,16 +72,15 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
-
+    padding-top: 2%;
 
 }
 
-
 .little-ammount {
     color: #707070;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
-    width: 135px;
+    width: 145px;
     height: 123px;
     background-color: #FAFAFA;
     border-radius: 5px;
@@ -90,9 +89,9 @@ body {
 
 .two-hundrade-taka {
     color: tomato;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
-    width: 135px;
+    width: 145px;
     height: 123px;
     background-color: #ffe3e3;
     border: 2px solid #FF5959;
@@ -101,9 +100,9 @@ body {
 
 .five-hundrade-tk {
     color: #707070;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
-    width: 135px;
+    width: 145px;
     height: 123px;
     background-color: #FAFAFA;
     border-radius: 5px;
@@ -111,9 +110,9 @@ body {
 
 .one-thousand-tk {
     color: #707070;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
-    width: 135px;
+    width: 145px;
     height: 123px;
     background-color: #FAFAFA;
     border-radius: 5px;
@@ -121,9 +120,9 @@ body {
 
 .one-hundrade-tk {
     color: #707070;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
-    width: 135px;
+    width: 145px;
     height: 123px;
     background-color: #FAFAFA;
     border-radius: 5px;
@@ -131,10 +130,25 @@ body {
 
 .five-thousand-tk {
     color: #707070;
-    font-size: 30px;
-    font-weight: 700;
-    width: 135px;
+    font-size: 25px;
+    width: 145px;
     height: 123px;
     background-color: #FAFAFA;
     border-radius: 5px;
+}
+
+.other-amount {
+    padding-top: 3%;
+    text-align: center;
+}
+
+strong {
+    color: #B3B3B3;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.underline-other-amount {
+    border: 1px solid #DADADA;
+    width: 765px;
 }
