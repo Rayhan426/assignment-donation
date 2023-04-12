@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+
 }
 
 .background-images {
@@ -8,9 +10,7 @@ body {
     width: 1920px;
     height: 669px;
     background-size: 1920px 669px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    padding-top: 5%;
 
 }
 
@@ -18,22 +18,123 @@ body {
     color: white;
     font-size: 65px;
     font-weight: 700;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+
 }
 
 .donation-details {
     color: white;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 1%;
+
 }
 
 .donate-button {
     background-color: #FF5959;
     color: white;
-    padding: 10px 15px;
+    padding: 15px 25px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 700;
+}
 
+.donate-button:hover {
+    background-color: royalblue;
+    transition: 0.5s;
 }
 
 .donation {
     text-align: center;
+}
+
+.donate-amount-part {
+    text-align: center;
+}
+
+
+.donate-today {
+    font-size: 60px;
+    font-weight: 700;
+    color: #121212;
+    margin-block-end: 0%;
+}
+
+.donate-today-details {
+    color: #707070;
+
+}
+
+.donate-taka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+
+
+}
+
+
+.little-ammount {
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+
+}
+
+.two-hundrade-taka {
+    color: tomato;
+    font-size: 30px;
+    font-weight: 700;
+    width: 135px;
+    height: 123px;
+    background-color: #ffe3e3;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.five-hundrade-tk {
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.one-thousand-tk {
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.one-hundrade-tk {
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.five-thousand-tk {
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
 }
