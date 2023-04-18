@@ -85,15 +85,17 @@ body {
     background-color: #ffe3e3;
     border: 2px solid #FF5959;
     border-radius: 5px;
+
 }
 
-. ////////{
-color: #707070;
-font-size: 25px;
-width: 145px;
-height: 123px;
-background-color: #FAFAFA;
-border-radius: 5px;
+.amount-taka {
+    color: #707070;
+    font-size: 25px;
+    width: 145px;
+    height: 123px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+
 }
 
 .other-amount {
@@ -124,6 +126,7 @@ strong {
     padding: 15px 35px;
     border-radius: 5px;
     font-weight: 700;
+
 }
 
 .flex-item {
