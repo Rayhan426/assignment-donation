@@ -197,3 +197,25 @@ strong {
     color: #707070;
 
 }
+
+.flex-girl {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 94px;
+    padding: 7% 60px;
+    width: 1170px;
+    margin: auto;
+}
+
+.flex-girl img {
+    width: 500px;
+    height: 450px;
+    border-radius: 5px;
+
+}
+
+.depended-heading {
+    font-size: 45px;
+    color: #121212;
+    margin-block-end: 0%;
+}
