@@ -209,7 +209,7 @@ strong {
 
 .flex-girl img {
     width: 500px;
-    height: 450px;
+    height: 477px;
     border-radius: 5px;
 
 }
@@ -218,4 +218,31 @@ strong {
     font-size: 45px;
     color: #121212;
     margin-block-end: 0%;
+}
+
+.contribute-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, green);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.flex-girl-two {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 70px;
+    padding: 2% 60px;
+    width: 1170px;
+    margin: auto;
+}
+
+.flex-girl-two img {
+    width: 100%;
+}
+
+.underline-section {
+    border: 1px solid #DADADA;
+    width: 1250px;
 }
